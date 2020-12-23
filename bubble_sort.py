@@ -4,14 +4,15 @@ def bubble_sort(arr):
         for j in range(n-i-1):
             if arr[j] > arr[j+1]:
                 arr[j], arr[j+1] = arr[j+1], arr[j]
+    return arr
 
 
 def main():
-    arr = [64, 34, 2, 5]
-    bubble_sort(arr)
+    arr = [64, 34, 2, 2, 2, 5]
+    sorted_array = bubble_sort(arr)
     print("Sorted array is:")
-    for i in range(len(arr)):
-        print("%d" % arr[i])
+    for element in sorted_array:
+        print("%d" % element)
 
 
 if __name__ == "__main__":
