@@ -1,5 +1,7 @@
-# Ищет с начала массива наименьший элемент, если найден меньше - делает его активным
-# В конце массива делает наименьший элемент текущим
+'''Ищет с начала массива наименьший элемент, если найден меньше - делает его активным
+В конце массива делает наименьший элемент текущим
+Т.к. сокращает область слева - от i+1 до n'''
+
 
 def selection_sort(arr):
     n = len(arr)
@@ -22,3 +24,49 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+# def selection_sort(arr):
+#     n = len(arr)
+#     for i in range(n):
+#         index_of_min_element = i
+#         for j in range(i+1, n):
+#             if arr[j] < arr[index_of_min_element]:
+#                 index_of_min_element = j
+#         arr[i], arr[index_of_min_element] = arr[index_of_min_element], arr[i]
+#     return arr
